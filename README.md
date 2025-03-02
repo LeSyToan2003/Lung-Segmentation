@@ -1,8 +1,8 @@
-#   U-Net Showdown —  Comparing Architectures for Lung Region Segmentation
+#   U-Net Showdown —  Comparing Architectures for Convex Hull on Lung Region Segmentation
 
 Link for Datasets: https://www.kaggle.com/datasets/yunannnn/lung-segmentation-dataset-ch0
 
-# Project Information
+## Project Information
 
 Lung region segmentation is a crucial step in medical image processing, particularly in disease diagnosis based on chest X-ray images. In this study, we focus on evaluating and comparing the performance of different U-Net variants - one of the leading architectures for image segmentation - in the task of lung region extraction.
 
@@ -28,7 +28,7 @@ A higher recall directly benefits disease diagnosis models by minimizing the ris
 
 **Environment: [Kaggle](https://www.kaggle.com/)**
 
-# Libraries:
+## Libraries:
 
 - numpy
 - matplotlib
@@ -36,7 +36,7 @@ A higher recall directly benefits disease diagnosis models by minimizing the ris
 - sklearn
 - tensorflow
 
-# Models:
+## Models:
 
 - **U-Net**: https://arxiv.org/abs/1505.04597
 - **Attention U-Net**: https://arxiv.org/abs/1804.03999
@@ -47,7 +47,7 @@ A higher recall directly benefits disease diagnosis models by minimizing the ris
 
 **Models are trained on GPU P100.**
 
-# Algorithms: Convex Hull of Points
+## Algorithms: Convex Hull of Points
 
 - **Graham Scan**: https://doi.org/10.1016/0020-0190(73)90020-3
 - **Andrew’s Monotone Chain**: https://doi.org/10.1016/0020-0190(79)90072-3
