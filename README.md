@@ -26,7 +26,7 @@ Since Convex Hull reduces false negatives (FN) by expanding the predicted region
 
 A higher recall directly benefits disease diagnosis models by minimizing the risk of missing critical pathological areas. This is especially important in conditions like pneumonia or lung cancer, where an incomplete segmentation could lead to inaccurate feature extraction and misdiagnosis. By enhancing recall, we provide a more comprehensive input for classification models, ultimately improving their reliability and clinical applicability.
 
-**Environment: Kaggle**
+**Environment: [Kaggle](https://www.kaggle.com/)**
 
 # Libraries:
 
@@ -44,6 +44,8 @@ A higher recall directly benefits disease diagnosis models by minimizing the ris
 - **R2U-Net**: https://arxiv.org/abs/1802.06955
 
 **Open Sources for Models: https://github.com/yingkaisha/keras-unet-collection**
+
+**Models are trained on GPU P100.**
 
 # Algorithms: Convex Hull of Points
 
