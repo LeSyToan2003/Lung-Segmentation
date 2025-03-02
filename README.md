@@ -45,7 +45,7 @@ A higher recall directly benefits disease diagnosis models by minimizing the ris
 
 **Open Sources for Models: https://github.com/yingkaisha/keras-unet-collection**
 
-**Models are trained on GPU P100.**
+Models are trained on **GPU P100**.
 
 ## Algorithms: Convex Hull of Points
 
