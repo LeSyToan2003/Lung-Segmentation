@@ -6,7 +6,7 @@ Link for Datasets: https://www.kaggle.com/datasets/yunannnn/lung-segmentation-da
 
 Lung region segmentation is a crucial step in medical image processing, particularly in disease diagnosis based on chest X-ray images. In this study, we focus on evaluating and comparing the performance of different U-Net variants - one of the leading architectures for image segmentation - in the task of lung region extraction.
 
-The models under comparison include the original U-Net, U-Net++, Attention U-Net and R2U-Net, with performance assessed based on metrics such as Dice Score, Intersection over Union (IoU), and inference time. The study utilizes the [COVID-19 Radiography Database](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database) and [COVID-QU-Ex Dataset](https://www.kaggle.com/datasets/anasmohammedtahir/covidqu), these are the high-quality collections of chest X-ray images.
+The models under comparison include the original U-Net, U-Net++, Attention U-Net and R2U-Net, with performance assessed based on metrics such as Dice Score, Intersection over Union (IoU), and inference time. The study utilizes the [COVID-19 Radiography Database](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database) and [COVID-QU-Ex Dataset](https://www.kaggle.com/datasets/anasmohammedtahir/covidqu), these are the high-quality collections of chest X-ray images. The effectiveness of the models is validated on the [Pulmonary Chest X-Ray Dataset](https://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels)
 
 The results of this research will highlight the strengths and weaknesses of each model, providing valuable insights for clinical applications, data preprocessing, and the enhancement of automated diagnosis systems. 
 
